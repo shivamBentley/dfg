@@ -1,0 +1,42 @@
+#Students {
+    background-color: white;
+
+    .student-container {
+        padding: 1rem;
+
+        .student-content {
+            padding-top: 1rem;
+
+            .student-category {
+                padding-bottom: 1rem;
+
+                ul>li {
+                    display: inline-block;
+                    background-color: #b6eeef;
+                    border-radius: 1rem;
+                    padding: 0.3rem 0.8rem;
+                    margin: 0 0.5rem 0 0;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    list-style-type: none;
+                    color: #4e4e5f;
+                }
+            }
+
+            .student-list {
+
+                //show list on mobile`
+                @media only screen and (max-width: 768px) {
+                    display: none;
+                }
+            }
+
+            .student-card {
+
+                //show card on mobile
+                @media only screen and (min-width: 768px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+#Hero {
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url('../../db/images/Hero-Background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    // filter: brightness(40%);
+    
+    
+
+    .hero-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        @media only screen and (max-width: 1107px) {
+            flex-direction: column-reverse;
+            align-items:center;
+            justify-content : start;
+
+        }
+
+        .hero-image{
+            margin:4rem;
+            text-align: center;
+            @media only screen and (max-width: 1107px) {
+                width: 80%;
+                overflow: hidden;
+                margin:5rem 0 2rem 0;
+            }
+        }
+
+        .hero-description {
+            color: white;
+            width: 50%;
+            font-size: 2.5rem;
+            font-family: 'Tangerine', 'cursive';
+            @media only screen and (max-width: 1107px) {
+                width: 90%;
+                font-size: 2rem;
+                text-align:center;
+            }
+
+        }
+        
+    }
+
+}

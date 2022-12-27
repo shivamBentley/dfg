@@ -1,0 +1,32 @@
+.top-container {
+
+    .sidebar {
+        width: 300px;
+        position: fixed;
+        transition: 1s;
+        z-index: 100;
+
+        @media screen and (max-width:678px) {
+            display: none;
+        }
+    }
+
+    .child-content {
+        min-height: 100vh;
+        @media screen and (min-width:678px) {
+            margin-left: 300px;
+        }
+    }
+
+    .sidebar-toggle-button {
+        display: none;
+        position: fixed;
+        right: 0.5rem;
+        top: 0.5rem;
+        padding: 0.1rem 0.5rem;
+
+        @media screen and (max-width:678px) {
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.student-table {
+
+  height: 60vh;
+  overflow-y: scroll;
+
+  thead {
+    tr {
+      position: sticky;
+      top: 0;
+
+      th {
+        padding: 0.7rem 1rem;
+        background-color: #aba7a7
+      }
+    }
+  }
+
+
+  tbody {
+
+    tr {
+      &:nth-child(even) {
+        background-color: #c9d8db;
+      }
+
+      td {
+        padding: 0.5rem 1rem;
+
+        // border-bottom: 0.5px solid #ddd;
+        img {
+          border-radius: 50%
+        }
+      }
+    }
+  }
+
+}

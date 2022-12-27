@@ -1,0 +1,11 @@
+#Resume {
+    .resume-container {
+        padding: 1rem;  
+        background-color: whitesmoke;
+       
+        .resume-content{
+            height: 100vh;
+            overflow-y: scroll;
+        }
+    }
+}

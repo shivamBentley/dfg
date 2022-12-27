@@ -1,0 +1,94 @@
+div {
+    .toggler {
+        .hamburger {
+            position: absolute;
+        }
+
+        .hidebutton {
+            position: absolute;
+            right: 0px;
+        }
+    }
+
+    #header {
+        // width: 275px;
+        height: 100vh;
+        background-color: #070b0e;
+        transition: 0.2s;
+
+        div {
+            .profile-container {
+                text-align: center;
+
+                img {
+                    margin-top: 2rem;
+                    width: 115px;
+                    height: 115px;
+                    border-radius: 50%;
+                    box-shadow: 0 0 0.2rem 0.5rem #45646e80;
+
+                }
+
+                img:hover {
+                    box-shadow: 0 0 0.2rem 0.5rem #2a94b780;
+                }
+
+                .text-light {
+                    font-weight: 600;
+                    font-size: x-large;
+                    text-decoration: none;
+                    color: whitesmoke;
+
+                    p {
+                        padding: 0.8rem;
+                    }
+                }
+
+                .social-links {
+                    :hover {
+                        border-radius: 60%;
+                        box-shadow: 0 0 0.2rem 0.4rem #2a94b780;
+                    }
+                    margin: 0.5rem 0;
+
+                    .m5 {
+                        margin: 0.5rem;
+                        color: #f8efef;
+                    }
+
+                    margin-bottom: 5px;
+                }
+            }
+
+
+            ul {
+                border-top: 1px solid #4c4545;
+                list-style-type: none;
+                padding: 0;
+                text-decoration: none;
+
+                li {
+                    width: 100%;
+                    margin: 0 auto;
+                    padding: 5px 0px;
+
+                    .nav-link {
+                        text-decoration: none;
+                        color: rgb(190, 167, 167);
+
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        padding: 5px 0 5px 15px;
+                        margin: 2px 0;
+                    }
+                }
+
+                li:hover {
+                    width: 100%;
+                    background-color: #223a4f
+                }
+            }
+        }
+    }
+}
