@@ -1,8 +1,15 @@
 #Students {
     background-color: white;
+    position: relative;
 
     .student-container {
         padding: 1rem;
+
+        .s-button {
+            position: absolute;
+            right: 1rem;
+            top: 2rem;
+        }
 
         .student-content {
             padding-top: 1rem;
@@ -30,7 +37,10 @@
                 }
             }
 
+            // background-color:red;
             .student-card {
+                display: flex;
+                justify-content: center;
 
                 //show card on mobile
                 @media only screen and (min-width: 768px) {

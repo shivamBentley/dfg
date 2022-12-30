@@ -1,9 +1,16 @@
 #Resume {
     .resume-container {
-        padding: 1rem;  
+        padding: 1rem;
         background-color: whitesmoke;
-       
-        .resume-content{
+        position: relative;
+
+        .d-button {
+            position: absolute;
+            right: 1rem;
+            top: 2rem;
+        }
+
+        .resume-content {
             height: 100vh;
             overflow-y: scroll;
         }
